@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background: url(../img/Imagen.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 120px;
+}#CONTENEDOR   h1{
+    color:#0c4566e8;
+    font-size: 50px;
+    text-transform: uppercase;
+}#CONTENEDOR   P{
+    font-size: 24PX;
+    font-weight: 600;
+    
+}
+#CONTENEDOR{
+    width: 80%;
+    padding: 100PX 120PX;
+    background: #a9a9a96b;
+    margin:0 auto;   
+}
+/*  inactivo*/
+#CONTENEDOR button{
+    padding: 8px 20px;
+    background: transparent;
+    border: 2px solid #7c0a4ecc;
+    color: black;
+    font-size: 30px;
+     cursor: pointer;
+     transition: .5s;
+     margin:10px 30px;
+     
+}
+
+
+#CONTENEDOR button:hover{
+    background: #bce2623d;
+    padding: 8px 40px;
+}
